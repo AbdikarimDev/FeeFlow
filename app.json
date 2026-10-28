@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "FeeFlow",
+    "slug": "feeflow",
+    "scheme": "feeflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.feeflow.app",
+      "permissions": [
+        "CALL_PHONE",
+        "READ_PHONE_STATE",
+        "POST_NOTIFICATIONS",
+        "SCHEDULE_EXACT_ALARM"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#102a43"
+      }
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-secure-store",
+      "./plugins/withUssdNative.js",
+      "expo-sqlite",
+      "expo-sharing"
+    ]
+  }
+}
