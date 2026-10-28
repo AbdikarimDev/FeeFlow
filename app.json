@@ -25,7 +25,8 @@
       "expo-secure-store",
       "./plugins/withUssdNative.js",
       "expo-sqlite",
-      "expo-sharing"
+      "expo-sharing",
+      "expo-status-bar"
     ]
   }
 }

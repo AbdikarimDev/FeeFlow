@@ -11,18 +11,18 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "expo": "~55.0.0",
-    "expo-file-system": "~55.0.26",
-    "expo-notifications": "~55.0.27",
-    "expo-secure-store": "~55.0.18",
-    "expo-sharing": "~55.0.25",
-    "expo-sqlite": "~55.0.20",
-    "expo-status-bar": "~55.0.6",
-    "react": "19.2.0",
-    "react-native": "0.83.10"
+    "expo": "^58.0.0",
+    "expo-file-system": "~58.0.12",
+    "expo-notifications": "~58.1.6",
+    "expo-secure-store": "~58.0.2",
+    "expo-sharing": "~58.0.20",
+    "expo-sqlite": "~58.0.14",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-native": "0.88.0"
   },
   "devDependencies": {
-    "@types/react": "~19.2.0",
-    "typescript": "~5.9.2"
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3"
   }
 }
